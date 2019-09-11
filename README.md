@@ -48,7 +48,7 @@
 		void TestSlot();		//测试槽函数
 		void realtimeDataSlot();//添加实时数据槽
 # *Links*  
-
+ 
 * QT 5.9.4:  *[Download](http://download.qt.io/archive/qt/5.9/5.9.4/)*
 * QCustomPlot 2:  *[Download](https://www.qcustomplot.com/index.php/download)*
 * Wiki:  *[View](http://192.168.123.39:3300/Vogue/wud/wiki)*  
