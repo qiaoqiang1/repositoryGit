@@ -7,7 +7,7 @@
 ### *DG822.h*   
 > *  *void **Out\_Bas\_Wave** (int ch, char * wave, double fre, double Vpp, double Vdc, double phase)*     
 > *  *void **Out\_Ran\_Wave**(int ch, double fre, double Vpp, double Vdc, double phase)*  
- ![zhanshi](http://static.runoob.com/images/runoob-logo.png)
+ ![zhanshi](https://github.com/qiaoqiang1/hello-world/blob/master/images/create-octocat.png)
 # class  
 + [DG822]()  
 + [DG3058E]()
