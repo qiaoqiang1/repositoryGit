@@ -33,8 +33,8 @@
  >> * *void **CopyCHnButtonSlot**()//CopyCHnButton槽函数*  
  >> * *void **SetCHnButtonSlot**()//SetCHnButton槽函数*  
  >> * *void **TestSlot**();		//测试槽函数*  
- >> * *void **realtimeDataSlot**()//添加实时数据槽*  
-# *Links*  
-##<a name='jump'>跳转的锚点</a>  
+ >> * *void **realtimeDataSlot**()//添加实时数据槽*   
+ 
+# <a name='jump'> *Links*</a>  
 * QT 5.9.4:  *[Download](http://download.qt.io/archive/qt/5.9/5.9.4/)*
 * QCustomPlot 2:  *[Download](https://www.qcustomplot.com/index.php/download)*
