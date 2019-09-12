@@ -15,32 +15,25 @@
  >> *	*void **set\_PWM\_Sig\_Sou**(int ch, char * flag)*  
  >> *	*void **Open\_PWM**(int ch)*  
  >> *	*void **Close\_PWM**(int ch)*  
-
 > ### *DM3085E.h*
  >> * *void **OpenMeasure**(const char * sig,const char * mod)*    	
  >> * *void **setRate**(const char * sig, const char * mod,const char * rate)*  
  >> * *void **InqInfo**(const char * sig, const char * mod)*  
-> ### *DG822\_visa.h*
- >> * *void **OpenMeasure**(const char * sig,const char * mod)*    	
- >> * *void **setRate**(const char * sig, const char * mod,const char * rate)*  
- >> * *void **InqInfo**(const char * sig, const char * mod)*  
-> ### *DG822\_visa.h*
-<td><font color="#008000">    
->> * *double **DataProcess**(QString string) //科学计数法转一般计数*  
->> * *void **setupRealtimeDataDemo**(QCustomPlot *customPlot)	//设置qcustomplot画图属性，实时*    
-> * ***signals***   
->> * *void **TestSignal**()	//测试信号  触发方式：点击stratButon*  
->> * *void **realDataSignal**()	//数据处理完毕信号 触发方式：DataProcess（）数据处理完毕*  
->> * *void **DevicenofSignal**() //设备未检测到信号 触发方式：设备未检测到*  
-> * ***private slots***  
->> * *void **Up\_DutyBoxSolt**()*   
->> * *void **StratButtonSolt**() //StratButton槽函数*  
->> * *void **CloseButtonSolt**()//CloseButton槽函数*   
->> * *void **CopyCHnButtonSlot**()//CopyCHnButton槽函数*  
->> * *void **SetCHnButtonSlot**()//SetCHnButton槽函数*  
->> * *void **TestSlot**();		//测试槽函数*  
->> * *void **realtimeDataSlot**()//添加实时数据槽*    
-</font></td>
+> ### *DG822\_visa.h*  
+ >> * *double **DataProcess**(QString string) //科学计数法转一般计数*  
+ >> * *void **setupRealtimeDataDemo**(QCustomPlot *customPlot)	//设置qcustomplot画图属性，实时*    
+ >> * ***signals***   
+ >> * *void **TestSignal**()	//测试信号  触发方式：点击stratButon*  
+ >> * *void **realDataSignal**()	//数据处理完毕信号 触发方式：DataProcess（）数据处理完毕*  
+ >> * *void **DevicenofSignal**() //设备未检测到信号 触发方式：设备未检测到*  
+ >> * ***private slots***  
+ >> * *void **Up\_DutyBoxSolt**()*   
+ >> * *void **StratButtonSolt**() //StratButton槽函数*  
+ >> * *void **CloseButtonSolt**()//CloseButton槽函数*   
+ >> * *void **CopyCHnButtonSlot**()//CopyCHnButton槽函数*  
+ >> * *void **SetCHnButtonSlot**()//SetCHnButton槽函数*  
+ >> * *void **TestSlot**();		//测试槽函数*  
+ >> * *void **realtimeDataSlot**()//添加实时数据槽*  
 # *Links*  
 
 * QT 5.9.4:  *[Download](http://download.qt.io/archive/qt/5.9/5.9.4/)*
