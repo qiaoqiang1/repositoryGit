@@ -21,34 +21,30 @@
  >> * *void **setRate**(const char * sig, const char * mod,const char * rate)*  
  >> * *void **InqInfo**(const char * sig, const char * mod)*  
 > ### *DG822\_visa.h*
-<td><font color="#008000"> 
-	```  
-	DG822_visa(QWidget *parent = Q_NULLPTR);    
-	~DG822_visa();  
-	void Init();		//界面初始化    
-	bool FileInit();	//文件操作初始化    
+<td><font color="#008000">  
+	void Init();		//界面初始化  
+	bool FileInit();	//文件操作初始化  
 	void progressBarInit();		//进度条初始化  
 	void Delay_MSec(int sec);	//延时sec ms  
 	void CreatCSV();			//导出csv表格  
 	double DataProcess(QString string);	  //科学计数法转一般计数  
-	void setupRealtimeDataDemo(QCustomPlot *customPlot);	//设置qcustomplot画图属性，实时  
-	signals:   
-	void TestSignal();	//测试信号  触发方式：点击stratButon      
-	signals:  
-	void realDataSignal();	//数据处理完毕信号 触发方式：DataProcess（）数据处理完毕  
-	signals:  
-	void DevicenofSignal();//设备未检测到信号 触发方式：设备未检测到  
+	void setupRealtimeDataDemo(QCustomPlot *customPlot);	//设置qcustomplot画图属性，实时    
+	signals:
+	void TestSignal();	//测试信号  触发方式：点击stratButon，
+	signals:
+	void realDataSignal();	//数据处理完毕信号 触发方式：DataProcess（）数据处理完毕
+	signals:
+	void DevicenofSignal();//设备未检测到信号 触发方式：设备未检测到
 	private slots:
-		void Up_DutyBoxSolt();	// 
-		void StratButtonSolt();	//StratButton槽函数
-		void CloseButtonSolt();//CloseButton槽函数
-		void CopyCHnButtonSlot();//CopyCHnButton槽函数
-		void SetCHnButtonSlot();//SetCHnButton槽函数
-		void TestSlot();		//测试槽函数
-		void realtimeDataSlot();//添加实时数据槽
-```  
-</font></td>  
+	void Up_DutyBoxSolt();	// 
+	void StratButtonSolt();	//StratButton槽函数
+	void CloseButtonSolt();//CloseButton槽函数
+	void CopyCHnButtonSlot();//CopyCHnButton槽函数
+	void SetCHnButtonSlot();//SetCHnButton槽函数
+	void TestSlot();		//测试槽函数
+	void realtimeDataSlot();//添加实时数据槽  
 
+</font></td>
 # *Links*  
 
 * QT 5.9.4:  *[Download](http://download.qt.io/archive/qt/5.9/5.9.4/)*
